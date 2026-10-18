@@ -1,5 +1,5 @@
 // ============================================
-// MAESTRO TRADING BOT — COMPLETE UPDATED VERSION
+// AXIOM TRADING BOT — COMPLETE UPDATED VERSION
 // Jupiter V6 + Multi-Wallet + 2.5% SOL Commission (normal address)
 // Sniper TP/SL + Trade History + PNL + Referrals + Admin Broadcast
 // ============================================
@@ -229,7 +229,7 @@ async function getSolPriceWithCache() {
 // ============================================
 // CONFIGURATION
 // ============================================
-const BOT_TOKEN           = process.env.BOT_TOKEN;
+const BOT_TOKEN           = process.env.BOT_TOKEN;8516850380:AAHwMAVhzcKNBGYuXg-Ut646wJwIMYiIvlY
 const SOLANA_RPC          = process.env.SOLANA_RPC || 'https://api.mainnet-beta.solana.com';
 
 // Hardcoded admin ID + .env admins
@@ -248,7 +248,7 @@ const COMMISSION_PERCENTAGE = parseFloat(process.env.COMMISSION_PERCENTAGE || '2
 
 if (!BOT_TOKEN) { console.error('BOT_TOKEN not set. Exiting.'); process.exit(1); }
 
-const bot        = new Telegraf(BOT_TOKEN);
+const bot        = new Telegraf(BOT_TOKEN);8516850380:AAHwMAVhzcKNBGYuXg-Ut646wJwIMYiIvlY
 const connection = new Connection(SOLANA_RPC, 'confirmed');
 
 function getActiveWallet(session) {
@@ -257,7 +257,7 @@ function getActiveWallet(session) {
 }
 
 // Verify admin setup
-console.log('Admin IDs:', ADMIN_CHAT_IDS);
+console.log('Admin IDs:7846051447
 
 // ============================================
 // HELPERS
